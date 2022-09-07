@@ -32,9 +32,11 @@ Widget buildListItem(String title, IconData icondata,VoidCallback action){
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 TextButton.icon(
-                  onPressed: (){},
+                  onPressed: (){
+                    Navigator.of(context).pop();
+                  },
                   style: TextButton.styleFrom(
-                    primary: Colors.black
+                    primary: Theme.of(context).accentColor
                   ), 
                   icon: const Icon(Icons.arrow_back_ios), 
                   label: const Text("Close"),),

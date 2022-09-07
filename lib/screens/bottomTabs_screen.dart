@@ -3,6 +3,7 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:meal_app/screens/categories_screen.dart';
 import 'package:meal_app/screens/favourites_screen.dart';
+import 'package:meal_app/theme.dart';
 
 import '../models/meals.dart';
 import '../widgets/my_drawer.dart';
@@ -35,7 +36,16 @@ class _BottomTabsScreenState extends State<BottomTabsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: MyDrawer(),
-      appBar: AppBar(title: Text("Meal App")),
+      appBar: AppBar(title: Text("Meal App"),
+      actions: [
+        IconButton(onPressed: (){
+          customTheme.toggleTheme();
+        }, icon: customTheme.themeMode==ThemeMode.light ? 
+        Icon(Icons.dark_mode_rounded):
+        Icon(Icons.sunny,) 
+        )
+      ],
+      ),
       body: _pages[_selectedItemIndex],
       bottomNavigationBar: BottomNavigationBar(
         onTap: _selectedItem,

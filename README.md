@@ -1,16 +1,52 @@
-# meal_app
 
-A new Flutter project.
+# Meal App
+It is a Cross-platform Application Developed using Flutter FrameWork
+This application is demonstrating the navigation between screens(Widgets) 
+Methods used : 
+- push
+- pushNamed
+- BottomNavigationBar
+- TabBar
 
-## Getting Started
+And passing data through out the application using 
+- constructors
+- ModalRout arguments in ( pushNamed method)
 
-This project is a starting point for a Flutter application.
+Application have option to filter the listed items based on the user prefrences in filters screen
 
-A few resources to get you started if this is your first Flutter project:
+Modes:
+- Dark
+- Light
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Frontend
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter : 3.0.1
+- Dart SDK version: 2.17.1
+
+## Screenshots
+
+### Home Page
+![App Screenshot](https://raw.githubusercontent.com/Akshat-kush007/Flutter-Meal-App/main/assets/images/ss1.png)
+
+
+### Drawer
+![App Screenshot](https://raw.githubusercontent.com/Akshat-kush007/Flutter-Meal-App/main/assets/images/ss2.png)
+
+### Favourites
+![App Screenshot](https://raw.githubusercontent.com/Akshat-kush007/Flutter-Meal-App/main/assets/images/ss3.png)
+
+
+### Filters screen
+![App Screenshot](https://raw.githubusercontent.com/Akshat-kush007/Flutter-Meal-App/main/assets/images/ss4.png)
+
+
+### Category screen
+![App Screenshot](https://raw.githubusercontent.com/Akshat-kush007/Flutter-Meal-App/main/assets/images/ss5.png)
+
+
+### Details screen
+![App Screenshot](https://raw.githubusercontent.com/Akshat-kush007/Flutter-Meal-App/main/assets/images/ss6.png)
+
+
+
+

@@ -2,6 +2,8 @@
 # Meal App
 It is a Cross-platform Application Developed using Flutter FrameWork
 This application is demonstrating the navigation between screens(Widgets) 
+
+![Alt Text](https://github.com/Akshat-kush007/Web-D-BackUp/blob/main/Assets/gifs/meal.gif)<br><br>
 Methods used : 
 - push
 - pushNamed
